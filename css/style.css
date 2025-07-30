@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: antonregular;
+    src:url(../fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsregular ;
+    src:url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+header{
+    background-image:url(../images/dodgechallenger2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+#nav1{
+    display: flex;
+    width: 1200px;
+    margin:0 auto;
+    padding-top: 20px;
+    align-items:center;
+    justify-content: space-between;
+}
+#logo1it{
+    width: 100px;
+}
+.linkmain{
+    font-family: poppinsregular;
+    margin-left: 32px;
+    color: white;
+}
+#info{
+    color: white;
+    text-align: center;
+    width: 600px;
+    height: 250px;
+    margin: 50px auto;
+}
+h2{
+    font-family:antonregular ;
+    font-weight: 100;
+    font-size: 50px;
+}
+p{
+    font-family: poppinsregular;
+    margin-top: 20px;
+}
+#linkinfoit{
+    font-family: poppinsregular;
+    color: gray;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
